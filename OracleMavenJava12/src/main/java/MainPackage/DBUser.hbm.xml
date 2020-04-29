@@ -5,7 +5,7 @@
 <hibernate-mapping>
 	<class name="MainPackage.DBUser" table="DBUSER">
 		<id name="userId" type="int">
-			<column name="USER_ID" precision="5" scale="0" />
+			<column name="USER_ID" precision="6" scale="0" />
 			<generator class="sequence">
 				<param name="sequence">BGIBBONS.SEQ_DBUSER</param>
 			</generator>

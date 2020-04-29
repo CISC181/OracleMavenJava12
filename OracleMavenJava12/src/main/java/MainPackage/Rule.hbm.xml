@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 13, 2014 2:49:57 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="MainPackage.Rule" table="Rule">
+		<id name="RULE_PK" type="int">
+			<column name="RULE_PK"  />
+			<generator class="sequence">
+				<param name="sequence">ROLE.SEQ_RULE</param>
+			</generator>
+		</id>
+		<property name="MAXNUMBEROFPLAYERS" type="int">
+			<column name="MAXNUMBEROFPLAYERS" 
+				not-null="true" />
+		</property>
+		<property name="PLAYERNUMBEROFCARDS" type="int">
+			<column name="PLAYERNUMBEROFCARDS"
+				not-null="true" />
+		</property>
+		<property name="NUMBEROFJOKERS" type="int">
+			<column name="NUMBEROFJOKERS"
+				not-null="true" />
+		</property>
+		<property name="PLAYERCARDSMIN" type="int">
+			<column name="PLAYERCARDSMIN" 
+				not-null="true" />
+		</property>
+
+		<property name="PLAYERCARDSMAX" type="int">
+			<column name="PLAYERCARDSMAX" 
+				not-null="true" />
+		</property>
+
+		<property name="COMMUNITYCARDSMIN" type="int">
+			<column name="COMMUNITYCARDSMIN" 
+				not-null="true" />
+		</property>
+		<property name="COMMUNITYCARDSMAX" type="int">
+			<column name="COMMUNITYCARDSMAX" 
+				not-null="true" />
+		</property>
+
+		<property name="POSSIBLEHANDCOMBINATIONS" type="int">
+			<column name="POSSIBLEHANDCOMBINATIONS"  not-null="true" />
+		</property>
+
+	</class>
+</hibernate-mapping>

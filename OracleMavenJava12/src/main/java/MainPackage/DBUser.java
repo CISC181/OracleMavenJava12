@@ -10,7 +10,34 @@ public class DBUser implements java.io.Serializable {
 	private String username;
 	private String createdBy;
 	private Date createdDate;
+	
+	
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public DBUser() {
 	}
 
