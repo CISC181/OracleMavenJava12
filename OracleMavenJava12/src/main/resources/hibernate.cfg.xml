@@ -7,7 +7,7 @@
 		<property name="hibernate.default_schema">RENO</property>
 		<property name="hibernate.connection.username">RENO</property>
 		<property name="hibernate.connection.password">RENO</property>
-		<property name="hibernate.connection.url">jdbc:oracle:thin:@3.85.159.255:1521:CISC437</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@18.206.238.155:1521:Newark</property>
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
